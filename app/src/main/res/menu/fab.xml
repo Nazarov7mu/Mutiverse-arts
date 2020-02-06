@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/one"
+        android:title="Download"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/two"
+        android:title="Share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/three"
+        android:title="Set as wallpaper"
+        android:icon="@drawable/ic_image_black_24dp"
+        android:orderInCategory="3"/>
+</menu>

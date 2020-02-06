@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Multiverse Arts</string>
+
+    <!--Links-->
+    <string name="website_link">http://geekart.club</string>
+    <string name="social_link">http://geekart.club/social_link_dc.html</string>
+    <string name="generaljson">http://dc.geekart.club/Characters.json</string>
+
+    <!--About-->
+    <string name="about_description"> <b>Multiverse Arts</b> is a part of a huge GeekArt.Club family.
+    \nThe best Superhero Wallpapers from All the universes. \nIf you have suggestions, feel free to contact us.</string>
+    <string name="version">1.00</string>
+
+
+    <!--Errors-->
+    <string name="internet_error_des">Check your internet connection</string>
+    <string name="internet_error">No internet!</string>
+
+
+    <!--Admob-->
+    <!--
+    Original banner: ca-app-pub-9910482576945765/6876988449
+    Original interstitial: ca-app-pub-9910482576945765/5372335081
+
+    Test banner: ca-app-pub-3940256099942544/6300978111
+    Test interstitial: ca-app-pub-3940256099942544/1033173712
+
+    -->
+    <string name="appID">ca-app-pub-9910482576945765~1050371722</string>
+    <string name="Admob_banner">ca-app-pub-9910482576945765/6876988449</string>
+    <string name="Admob_interstitial">ca-app-pub-9910482576945765/5372335081</string>
+
+
+</resources>

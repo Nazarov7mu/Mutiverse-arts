@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "club.geekart.multiverse"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 101
+        versionName "1.01"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:27.+'
+    implementation 'com.android.support:design:27.+'
+    implementation 'com.android.support:support-v4:27.+'
+    implementation 'com.github.florent37:tutoshowcase:1.0.1'
+
+    // RecyclerView
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+
+    // volley
+    implementation 'com.android.volley:volley:1.0.0'
+
+    // Glide
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+    //Swipes
+    implementation 'com.github.pwittchen:swipe-rx2:0.3.0'
+
+    //Paralax
+    implementation 'com.yayandroid:ParallaxRecyclerView:1.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    //Toast
+    implementation 'com.muddzdev:styleabletoast:2.1.2'
+
+    //About
+    implementation 'com.github.medyo:android-about-page:1.2.4'
+
+    //fab
+    implementation 'com.github.kobakei:MaterialFabSpeedDial:1.2.0'
+
+    //Admob
+    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
